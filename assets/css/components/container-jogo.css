@@ -1,0 +1,9 @@
+.quadro-jogo{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 800px;
+    padding: 10px;
+    border: 4px solid #023535;
+    border-radius: 8px;
+}
