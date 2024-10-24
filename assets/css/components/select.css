@@ -1,0 +1,22 @@
+select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 15PX;
+
+}
+select option{
+    padding: 3px;
+    border-radius: 8px;
+    font-size: 15PX;
+}
+
+.controls-select{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}

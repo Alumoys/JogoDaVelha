@@ -1,0 +1,43 @@
+/* importações de componentes CSS do index */
+@import url('./components/buttons.css');
+@import url('./components/container-game.css');
+@import url('./components/select.css');
+@import url('./components/span.css');
+
+/* impotação da fonte do site, google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* normalização da pagina em todos os navegadores */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", sans-serif; ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    width: calc(100vw - 16px);
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #072126;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw ;
+    height: 100vh
+}
