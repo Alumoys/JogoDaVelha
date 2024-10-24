@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link dos icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link arquivo global CSS  -->
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/hashtag.png"
+      type="image/x-icon"
+    />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <header>
+      <span class="logo">Tic-Tac-Toe</span>
+
+      <!-- criação de container para configurar modo de jogo -->
+      <div class="container-controls">
+
+        <!-- seletor do tamanho do tabulerio; aumenta o número de casa, fácil:3X3, médio:6x6, difícil:9X9 -->
+        <div class="controls-select">
+          <span class="tilte-controls">Tamanho do Tabuleiro:</span>
+          <select name="levels" id="Nivel">
+              <option value="easy">3X3</option>
+              <option value="medium">6X6</option>
+              <option value="hard">9X9</option>
+          </select>
+        </div>
+        
+        <!-- modo de jogo; máquina: o jogador vs máquina. amigo: jogador vs um amigo -->
+        <div class="controls-select">
+          <span class="tilte-controls">Modo de jogo:</span>
+          <select name="mode" id="mode">
+              <option value="machine">Máquina</option>
+              <option value="friend">Amigo</option>
+          </select>
+  
+        </div>
+          <!-- iniciar jogo e limpar container-game para um novo jogo -->
+        <div class="container-button">
+          <button id="start">Iniciar</button> 
+          <button id="reset">Resetar</button>
+        </div>
+
+      </div>
+    </header>
+
+    <main>
+      <div id="round">
+        <span id="current-player"></span>
+      </div>
+      <div id="message-container"></div>
+      <!-- tabulerio da velha -->
+      <div id="container-game"></div>
+    </main>
+
+    <script src="./assets/js/logica.js"></script>
+  </body>
+</html>
