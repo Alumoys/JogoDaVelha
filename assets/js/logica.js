@@ -169,10 +169,10 @@ const updateCurrentPlayerDisplay = () => {
         boardSize = 3;
         break;
       case "medium":
-        boardSize = 6;
+        boardSize = 7;
         break;
       case "hard":
-        boardSize = 9;
+        boardSize = 10;
         break;
     }
 
