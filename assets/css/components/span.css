@@ -1,0 +1,16 @@
+.logo{
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 30px;
+    text-shadow:   2px 4px  #97A6A0;
+    color: white;
+    text-transform: capitalize;
+}
+.tilte-controls{
+    font-size: 20px;
+    color: white;
+}
+#current-player{
+    font-size: 20px;
+}
